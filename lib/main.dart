@@ -1,3 +1,4 @@
+import 'package:color_switch_animation/src/bottom_navigation_custom_paint.dart';
 import 'package:flutter/material.dart';
 
 import 'src/tween_animation_home.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TweenHome(),
+      home: const CustomNavigator(),
     );
   }
 }
